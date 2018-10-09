@@ -50,7 +50,7 @@ services:
             - { name: sonata.admin, manager_type: orm, label: Users }
         public: true    
 
-    app.helper.checker:
+    any_name_for_checker:
         class: App\Helper\Checker   
         public: true     
 

@@ -13,7 +13,7 @@ class CheckerController extends Controller
     public function index()
     {
        
-    	$checker = $this->get('app.helper.checker');
+    	$checker = $this->get('any_name_for_checker');
 
     	echo $checker->isValid('A');
 

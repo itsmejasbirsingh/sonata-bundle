@@ -158,3 +158,11 @@ c248a3,127.0.0.1,GET,http://localhost:8000/robots.txt,1539086634,,404
 e77453,127.0.0.1,GET,http://localhost:8000/,1539086642,,404
 abac64,127.0.0.1,GET,http://localhost:8000/login,1539086655,,200
 02f7a9,127.0.0.1,GET,http://localhost:8000/admin/app/user/create,1539086659,,200
+7d06e5,127.0.0.1,GET,http://localhost:8000/admin/dashboard,1539096057,,200
+887143,127.0.0.1,GET,http://localhost:8000/favicon.ico,1539096059,17f1e9,200
+17f1e9,127.0.0.1,GET,http://localhost:8000/favicon.ico,1539096059,,404
+a4c2b0,127.0.0.1,GET,http://localhost:8000/admin/app/user/list,1539096066,,200
+0905c7,127.0.0.1,GET,http://localhost:8000/admin/app/user/create,1539096187,,200
+271d3d,127.0.0.1,POST,http://localhost:8000/admin/app/user/create?uniqid=s8feb4ca090,1539096205,,302
+74c337,127.0.0.1,GET,http://localhost:8000/admin/app/user/7/edit,1539096205,,200
+f0e1b3,127.0.0.1,GET,http://localhost:8000/admin/app/user/list,1539096208,,200

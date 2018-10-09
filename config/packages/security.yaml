@@ -2,15 +2,10 @@ security:
     encoders:
         App\Entity\User:
             algorithm: bcrypt
-    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    
     providers:
         my_provider:
-            entity:
-                class: App\Entity\User
-                property: username
-    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
-    providers:
-        in_memory: { memory: ~ }
+            id: fos_user.user_provider.username_email
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/

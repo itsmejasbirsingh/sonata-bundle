@@ -21,4 +21,5 @@ return [
     Sonata\CoreBundle\SonataCoreBundle::class => ['all' => true],
     Sonata\AdminBundle\SonataAdminBundle::class => ['all' => true],
     FOS\UserBundle\FOSUserBundle::class => ['all' => true],
+
 ];

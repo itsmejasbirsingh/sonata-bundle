@@ -1347,6 +1347,7 @@
             "time": "2016-10-17T18:31:11+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "friendsofsymfony/user-bundle",
             "version": "v2.1.2",
             "source": {
@@ -1423,6 +1424,8 @@
             "time": "2018-03-08T08:59:27+00:00"
         },
         {
+=======
+>>>>>>> 5f611c9ba890eea466292505de123d1345dd314d
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
